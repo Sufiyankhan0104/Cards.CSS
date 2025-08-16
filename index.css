@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid black;
+    display: flex;
+    background: #22C1C3;
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    margin: 0;
+    height: 65vh;
+    width: 22vw;
+    background-color: azure;
+    border-radius: 30px;
+    display: flex;
+    /* justify-content: center; */
+    gap: 20px;
+    padding: 30px;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+    box-shadow: 4px 4px 8px 4px rgb(203, 168, 122);
+
+}
+.cards img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin: 0;           /* Removes any margin */
+    padding: 0;          /* Optional: removes padding if any */
+    width: 100%;         /* Makes image span full width of the card */
+    display: block;      /* Removes default inline spacing */
+}
